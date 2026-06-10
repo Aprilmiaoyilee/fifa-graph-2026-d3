@@ -1,0 +1,2 @@
+﻿rank,country,eigenvector_centrality,player_count,club_count,is_winner
+1,France,0.1866561664693319,26,18,True

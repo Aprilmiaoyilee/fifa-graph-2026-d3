@@ -1,0 +1,274 @@
+:root {
+  --bg: #f5f1e8;
+  --ink: #1e2a2f;
+  --muted: #667174;
+  --panel: #fffaf0;
+  --line: #d6cdbd;
+  --country: #0f7c80;
+  --club: #c4512d;
+  --winner: #d4a017;
+  --focus: #283845;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.app-shell {
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 28px 24px;
+  border-right: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--panel), #efe6d5);
+  box-shadow: 8px 0 30px rgba(42, 36, 26, 0.08);
+  z-index: 2;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--club);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.02;
+}
+
+.summary {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.48;
+}
+
+.winner-card {
+  display: grid;
+  gap: 5px;
+  padding: 16px;
+  border: 1px solid rgba(212, 160, 23, 0.45);
+  border-radius: 8px;
+  background: #fff4c8;
+}
+
+.winner-card .label,
+.controls label {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.winner-card strong {
+  font-size: 26px;
+}
+
+.winner-card span:last-child {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.controls {
+  display: grid;
+  gap: 10px;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fffdf8;
+  color: var(--ink);
+  font: inherit;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: var(--country);
+}
+
+output {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+button {
+  min-height: 40px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--focus);
+  color: #fffdf8;
+  font: 700 14px Georgia, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #17252d;
+}
+
+.legend {
+  display: grid;
+  gap: 10px;
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: -1px;
+}
+
+.swatch.country {
+  background: var(--country);
+}
+
+.swatch.club {
+  background: var(--club);
+}
+
+.swatch.winner {
+  background: var(--winner);
+}
+
+.graph-stage {
+  position: relative;
+  margin-left: 330px;
+  width: calc(100vw - 330px);
+  height: 100vh;
+  min-width: 0;
+  background:
+    linear-gradient(rgba(30, 42, 47, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 42, 47, 0.045) 1px, transparent 1px),
+    radial-gradient(circle at 70% 20%, rgba(15, 124, 128, 0.14), transparent 34%),
+    var(--bg);
+  background-size: 34px 34px, 34px 34px, 100% 100%, 100% 100%;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+svg:active {
+  cursor: grabbing;
+}
+
+.link {
+  stroke: rgba(55, 66, 70, 0.24);
+  stroke-linecap: round;
+}
+
+.node {
+  stroke: #fffaf0;
+  stroke-width: 1.4px;
+  cursor: pointer;
+}
+
+.node.country {
+  fill: var(--country);
+}
+
+.node.club {
+  fill: var(--club);
+}
+
+.node.winner {
+  fill: var(--winner);
+  stroke: #332407;
+  stroke-width: 3px;
+}
+
+.label {
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: rgba(255, 250, 240, 0.86);
+  stroke-width: 4px;
+  font-size: 11px;
+  pointer-events: none;
+}
+
+.club-label {
+  opacity: 0;
+}
+
+.dimmed {
+  opacity: 0.12;
+}
+
+.highlighted {
+  opacity: 1;
+}
+
+.tooltip {
+  position: absolute;
+  max-width: 260px;
+  padding: 10px 12px;
+  border: 1px solid rgba(30, 42, 47, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.96);
+  box-shadow: 0 14px 38px rgba(33, 31, 25, 0.18);
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.42;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.tooltip strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+@media (max-width: 780px) {
+  body {
+    overflow: auto;
+  }
+
+  .app-shell {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .panel {
+    position: relative;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .graph-stage {
+    margin-left: 0;
+    width: 100%;
+    height: 72vh;
+  }
+}

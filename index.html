@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FIFA 2026 Country-Club Graph</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="panel">
+        <div>
+          <p class="eyebrow">FIFA 2026</p>
+          <h1>Country-Club Centrality</h1>
+          <p class="summary">Eigenvector centrality on a national-team and club network. The top-ranked country is the predicted winner.</p>
+        </div>
+
+        <section class="winner-card" aria-live="polite">
+          <span class="label">Predicted Winner</span>
+          <strong id="winnerName">Loading...</strong>
+          <span id="winnerScore">Centrality pending</span>
+        </section>
+
+        <section class="controls">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Country or club">
+
+          <label for="topNInput">Show top countries</label>
+          <input id="topNInput" type="range" min="5" max="48" value="48" step="1">
+          <output id="topNValue" for="topNInput">48</output>
+
+          <button id="resetButton" type="button">Reset View</button>
+        </section>
+
+        <section class="legend">
+          <div><span class="swatch country"></span>Country</div>
+          <div><span class="swatch club"></span>Club</div>
+          <div><span class="swatch winner"></span>Winner</div>
+        </section>
+      </aside>
+
+      <section class="graph-stage">
+        <svg id="graph" role="img" aria-label="FIFA 2026 country and club graph"></svg>
+        <div id="tooltip" class="tooltip" hidden></div>
+      </section>
+    </main>
+
+    <script src="data/graph-data.js"></script>
+    <script src="vendor/d3.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,498 @@
+﻿id,label,type,eigenvector_centrality,rank,player_count,club_count,country_count,is_winner
+Algeria,Algeria,country,0.10130756637375757,23,26,24,,False
+Argentina,Argentina,country,0.13349133053119755,12,26,18,,False
+Australia,Australia,country,0.02325454455605991,39,26,22,,False
+Austria,Austria,country,0.10783894525106621,21,25,21,,False
+Belgium,Belgium,country,0.1503704511764199,7,26,18,,False
+Bosnia and Herzegovina,Bosnia and Herzegovina,country,0.06968245825081719,30,26,24,,False
+Brazil,Brazil,country,0.14813875661416084,8,26,20,,False
+Canada,Canada,country,0.0750433132144077,28,25,21,,False
+Cape Verde,Cape Verde,country,0.030089814152060655,38,26,26,,False
+Colombia,Colombia,country,0.0908935231984176,25,26,24,,False
+Croatia,Croatia,country,0.13413626772125187,11,26,24,,False
+Curaçao,Curaçao,country,0.017855678303032113,41,26,22,,False
+Czech Republic,Czech Republic,country,0.04929187132983457,34,26,11,,False
+DR Congo,DR Congo,country,0.05898141980194421,31,26,24,,False
+Ecuador,Ecuador,country,0.10423590747919961,22,26,23,,False
+Egypt,Egypt,country,0.05896251578145425,32,26,14,,False
+England,England,country,0.16727699365375293,3,26,16,,False
+France,France,country,0.1866561664693319,1,26,18,,True
+Germany,Germany,country,0.11706150451778528,18,26,13,,False
+Ghana,Ghana,country,0.08389665522299795,26,26,23,,False
+Haiti,Haiti,country,0.03629969833304576,36,26,25,,False
+Iran,Iran,country,0.004674924301369323,47,26,14,,False
+Iraq,Iraq,country,0.008236704080688283,45,26,20,,False
+Ivory Coast,Ivory Coast,country,0.15721246497471075,4,26,25,,False
+Japan,Japan,country,0.11279045006081473,20,26,23,,False
+Jordan,Jordan,country,0.006496229086297936,46,26,15,,False
+Mexico,Mexico,country,0.05441073350397704,33,26,21,,False
+Morocco,Morocco,country,0.15388419613500545,6,26,23,,False
+Netherlands,Netherlands,country,0.18042332138023276,2,26,20,,False
+New Zealand,New Zealand,country,0.014441373235334358,42,26,20,,False
+Norway,Norway,country,0.12234703486538595,15,26,22,,False
+Panama,Panama,country,0.013792457926697461,43,26,23,,False
+Paraguay,Paraguay,country,0.04761049450548529,35,26,22,,False
+Portugal,Portugal,country,0.1405742643206266,9,26,17,,False
+Qatar,Qatar,country,0.0017888005289166346,48,26,8,,False
+Saudi Arabia,Saudi Arabia,country,0.030448072038495432,37,26,9,,False
+Scotland,Scotland,country,0.09623406998900623,24,26,22,,False
+Senegal,Senegal,country,0.15419424460079384,5,26,22,,False
+South Africa,South Africa,country,0.008909638082054935,44,26,12,,False
+South Korea,South Korea,country,0.07206059256357943,29,26,22,,False
+Spain,Spain,country,0.11735317783850607,17,26,13,,False
+Sweden,Sweden,country,0.13494168529983186,10,26,26,,False
+Switzerland,Switzerland,country,0.1315949499675951,13,26,24,,False
+Tunisia,Tunisia,country,0.07605976184502902,27,26,24,,False
+Turkey,Turkey,country,0.12709261872283323,14,26,16,,False
+United States,United States,country,0.11924158979395894,16,26,24,,False
+Uruguay,Uruguay,country,0.11298163087873224,19,26,22,,False
+Uzbekistan,Uzbekistan,country,0.022199399830065684,40,26,16,,False
+AEK Athens,AEK Athens,club,0.005507483082798376,,1,,1,False
+AEK Larnaca,AEK Larnaca,club,0.0008337235261147041,,1,,1,False
+AEL,AEL,club,0.0059701303667391535,,2,,1,False
+AEL Limassol,AEL Limassol,club,0.0064093213440953,,2,,2,False
+AGF,AGF,club,0.0008337235261147041,,1,,1,False
+AGMK,AGMK,club,0.002247034935481622,,1,,1,False
+AIK,AIK,club,0.013658868433703902,,1,,1,False
+APOEL,APOEL,club,0.0023538372556885863,,1,,1,False
+AS FAR,AS FAR,club,0.015576239329102267,,1,,1,False
+AZ,AZ,club,0.005507483082798376,,1,,1,False
+Abha,Abha,club,0.0018073611625174046,,1,,1,False
+Ajax,Ajax,club,0.04325659596060816,,4,,3,False
+Akron Tolyatti,Akron Tolyatti,club,0.003045706827319905,,1,,1,False
+Al Ahly,Al Ahly,club,0.021544456208891755,,9,,2,False
+Al Ain,Al Ain,club,0.02636361552235744,,3,,3,False
+Al Bataeh,Al Bataeh,club,0.005292741762801527,,2,,2,False
+Al Dhafra,Al Dhafra,club,0.0008337235261147041,,1,,1,False
+Al Jazira,Al Jazira,club,0.0059701303667391535,,1,,1,False
+Al Nasr,Al Nasr,club,0.00047319829948573697,,1,,1,False
+Al Wahda,Al Wahda,club,0.00047319829948573697,,1,,1,False
+Al-Ahli,Al-Ahli,club,0.08964805613147438,,9,,7,False
+Al-Arabi,Al-Arabi,club,0.00018106333133251652,,3,,1,False
+Al-Duhail,Al-Duhail,club,0.010435468538548445,,7,,2,False
+Al-Ettifaq,Al-Ettifaq,club,0.01282283309807712,,2,,2,False
+Al-Faisaly,Al-Faisaly,club,0.0006575517288674801,,3,,1,False
+Al-Fayha,Al-Fayha,club,0.0013960798559218114,,1,,1,False
+Al-Gharafa,Al-Gharafa,club,0.00018106333133251652,,3,,1,False
+Al-Hilal,Al-Hilal,club,0.07882432835542598,,12,,6,False
+Al-Hussein,Al-Hussein,club,0.0006575517288674801,,6,,1,False
+Al-Ittihad,Al-Ittihad,club,0.02833105798336939,,4,,3,False
+Al-Karma,Al-Karma,club,0.0014912752549821838,,3,,2,False
+Al-Najma,Al-Najma,club,0.006801940405904193,,2,,2,False
+Al-Nassr,Al-Nassr,club,0.03291859348892042,,9,,3,False
+Al-Qadsiah,Al-Qadsiah,club,0.0170815165693866,,6,,3,False
+Al-Quwa Al-Jawiya,Al-Quwa Al-Jawiya,club,0.0006575517288674801,,1,,1,False
+Al-Rayyan,Al-Rayyan,club,0.00018106333133251652,,4,,1,False
+Al-Sadd,Al-Sadd,club,0.00018106333133251652,,5,,1,False
+Al-Sailiya,Al-Sailiya,club,0.0006575517288674801,,1,,1,False
+Al-Shabab,Al-Shabab,club,0.0006575517288674801,,1,,1,False
+Al-Shamal,Al-Shamal,club,0.00018106333133251652,,1,,1,False
+Al-Shorta,Al-Shorta,club,0.0008337235261147041,,4,,1,False
+Al-Talaba,Al-Talaba,club,0.0008337235261147041,,3,,1,False
+Al-Ula,Al-Ula,club,0.003081969875287019,,1,,1,False
+Al-Wakrah,Al-Wakrah,club,0.006149280211122005,,4,,2,False
+Al-Wehdat,Al-Wehdat,club,0.0006575517288674801,,2,,1,False
+Al-Zawraa,Al-Zawraa,club,0.0014912752549821838,,4,,2,False
+Alanyaspor,Alanyaspor,club,0.0059701303667391535,,1,,1,False
+Albirex Niigata,Albirex Niigata,club,0.0023538372556885863,,1,,1,False
+Almere City,Almere City,club,0.0036742745831397014,,1,,1,False
+América,América,club,0.0290132397068066,,4,,3,False
+Anderlecht,Anderlecht,club,0.013103406764745246,,2,,2,False
+Angers,Angers,club,0.0036742745831397014,,1,,1,False
+Antwerp,Antwerp,club,0.010550813419953587,,1,,1,False
+Apollon Limassol,Apollon Limassol,club,0.003045706827319905,,1,,1,False
+Aris Limassol,Aris Limassol,club,0.0059701303667391535,,1,,1,False
+Arsenal,Arsenal,club,0.14462439407433797,,16,,10,False
+Astana,Astana,club,0.007053295127984175,,1,,1,False
+Aston Villa,Aston Villa,club,0.08795767134226219,,9,,6,False
+Atalanta,Atalanta,club,0.09217781904267469,,7,,7,False
+Athletic Bilbao,Athletic Bilbao,club,0.020370614033847982,,4,,2,False
+Athletico Paranaense,Athletico Paranaense,club,0.009200290257112786,,1,,1,False
+Atlanta United FC,Atlanta United FC,club,0.004819159313465682,,2,,1,False
+Atlas,Atlas,club,0.009200290257112786,,1,,1,False
+Atlético Madrid,Atlético Madrid,club,0.05471818763816696,,12,,5,False
+Atlético Mineiro,Atlético Mineiro,club,0.015369972733419269,,4,,2,False
+Atlético Nacional,Atlético Nacional,club,0.009200290257112786,,1,,1,False
+Atromitos,Atromitos,club,0.0059701303667391535,,1,,1,False
+Auckland FC,Auckland FC,club,0.0014617634037930327,,5,,1,False
+Austria Wien,Austria Wien,club,0.007294011133138064,,1,,1,False
+Auxerre,Auxerre,club,0.012166338194440905,,4,,2,False
+Baniyas,Baniyas,club,0.002247034935481622,,1,,1,False
+Barcelona,Barcelona,club,0.11259435564062667,,15,,8,False
+Barnsley,Barnsley,club,0.00759592368194687,,1,,1,False
+Bastia,Bastia,club,0.0036742745831397014,,1,,1,False
+Bayer Leverkusen,Bayer Leverkusen,club,0.0878984729080883,,7,,7,False
+Bayern Munich,Bayern Munich,club,0.12328174276396656,,18,,10,False
+Benfica,Benfica,club,0.07464496344402485,,8,,7,False
+Beveren,Beveren,club,0.0018073611625174046,,1,,1,False
+Beşiktaş,Beşiktaş,club,0.037467601203948285,,4,,4,False
+Birmingham City,Birmingham City,club,0.007294011133138064,,1,,1,False
+Boca Juniors,Boca Juniors,club,0.013512062729995567,,1,,1,False
+Bodø/Glimt,Bodø/Glimt,club,0.012384031275210539,,3,,1,False
+Bologna,Bologna,club,0.058222638543240585,,5,,5,False
+Borac Banja Luka,Borac Banja Luka,club,0.007053295127984175,,1,,1,False
+Borussia Dortmund,Borussia Dortmund,club,0.08524633875505269,,11,,7,False
+Borussia Mönchengladbach,Borussia Mönchengladbach,club,0.03973711289421947,,5,,4,False
+Botafogo,Botafogo,club,0.014994682900866441,,1,,1,False
+Bournemouth,Bournemouth,club,0.05506778617255007,,5,,4,False
+Braga,Braga,club,0.04099979255407912,,4,,4,False
+Braintree Town,Braintree Town,club,0.0014617634037930327,,1,,1,False
+Brentford,Brentford,club,0.0540514427324185,,4,,4,False
+Brighton & Hove Albion,Brighton & Hove Albion,club,0.0766745563874474,,8,,6,False
+Brøndby,Brøndby,club,0.017968809954858604,,2,,2,False
+Bukhara,Bukhara,club,0.002247034935481622,,1,,1,False
+Burnley,Burnley,club,0.04154975635557763,,5,,5,False
+CS Sfaxien,CS Sfaxien,club,0.007698809157132945,,1,,1,False
+Cagliari,Cagliari,club,0.009200290257112786,,1,,1,False
+Casa Pia,Casa Pia,club,0.003045706827319905,,1,,1,False
+Castellón,Castellón,club,0.008323967622427741,,2,,2,False
+Celta Vigo,Celta Vigo,club,0.02553741885625068,,2,,2,False
+Celtic,Celtic,club,0.0694748808817891,,8,,7,False
+Cercle Brugge,Cercle Brugge,club,0.015913128453328314,,1,,1,False
+Cerro Porteño,Cerro Porteño,club,0.004819159313465682,,2,,1,False
+Charleroi,Charleroi,club,0.026167533660544244,,3,,2,False
+Charlotte FC,Charlotte FC,club,0.012069696496392524,,1,,1,False
+Charlton Athletic,Charlton Athletic,club,0.0097408632227901,,1,,1,False
+Chaves,Chaves,club,0.003045706827319905,,1,,1,False
+Chelsea,Chelsea,club,0.11986589448196935,,8,,8,False
+Chicago Fire FC,Chicago Fire FC,club,0.020567458439636317,,3,,3,False
+Club Africain,Club Africain,club,0.007698809157132945,,2,,1,False
+Club Brugge,Club Brugge,club,0.03943025806609111,,5,,3,False
+Cobresal,Cobresal,club,0.0013960798559218114,,1,,1,False
+Colorado Rapids,Colorado Rapids,club,0.0023538372556885863,,1,,1,False
+Colorado Springs Switchbacks FC,Colorado Springs Switchbacks FC,club,0.0036742745831397014,,1,,1,False
+Columbus Crew,Columbus Crew,club,0.015115403323712428,,2,,2,False
+Como,Como,club,0.04269702898108318,,3,,3,False
+Copenhagen,Copenhagen,club,0.0326928615652401,,3,,3,False
+Corinthians,Corinthians,club,0.018262543552501006,,1,,1,False
+Cosmos Koblenz,Cosmos Koblenz,club,0.0036742745831397014,,1,,1,False
+Coventry City,Coventry City,club,0.02056176010769373,,2,,2,False
+Cracovia,Cracovia,club,0.0008337235261147041,,1,,1,False
+Cremonese,Cremonese,club,0.01720319058867622,,2,,2,False
+Cruz Azul,Cruz Azul,club,0.014707773339911164,,2,,2,False
+Crystal Palace,Crystal Palace,club,0.13987156833338205,,12,,10,False
+Cultural Leonesa,Cultural Leonesa,club,0.00018106333133251652,,1,,1,False
+Daejeon Hana Citizen,Daejeon Hana Citizen,club,0.007294011133138064,,1,,1,False
+Den Bosch,Den Bosch,club,0.0018073611625174046,,1,,1,False
+Dender,Dender,club,0.008069121981432606,,2,,2,False
+Deportivo La Guaira,Deportivo La Guaira,club,0.0013960798559218114,,1,,1,False
+Derby County,Derby County,club,0.026042899708914442,,2,,2,False
+Dibba,Dibba,club,0.0030807584615963257,,2,,2,False
+Dinamo Samarqand,Dinamo Samarqand,club,0.002247034935481622,,2,,1,False
+Dinamo Zagreb,Dinamo Zagreb,club,0.023318206874212564,,2,,2,False
+Dynamo Makhachkala,Dynamo Makhachkala,club,0.007698809157132945,,1,,1,False
+Dynamo Moscow,Dynamo Moscow,club,0.010326642396264058,,2,,2,False
+Eintracht Frankfurt,Eintracht Frankfurt,club,0.09820025767461735,,8,,8,False
+El Gouna,El Gouna,club,0.00596821687978949,,1,,1,False
+El Paso Locomotive FC,El Paso Locomotive FC,club,0.0036742745831397014,,1,,1,False
+Elche,Elche,club,0.01091551482687443,,1,,1,False
+Espanyol,Espanyol,club,0.0059701303667391535,,1,,1,False
+Espérance de Tunis,Espérance de Tunis,club,0.017953214364348873,,2,,2,False
+Esteghlal,Esteghlal,club,0.00639450781810706,,6,,3,False
+Estrela Amadora,Estrela Amadora,club,0.003045706827319905,,1,,1,False
+Estudiantes,Estudiantes,club,0.011436060127615697,,1,,1,False
+Everton,Everton,club,0.04228035115600667,,4,,3,False
+FC Augsburg,FC Augsburg,club,0.04551177777213453,,4,,4,False
+FC Cincinnati,FC Cincinnati,club,0.012069696496392524,,1,,1,False
+FC Dallas,FC Dallas,club,0.030910486668266065,,3,,3,False
+FC Seoul,FC Seoul,club,0.0006575517288674801,,1,,1,False
+FC St. Pauli,FC St. Pauli,club,0.023066000817376666,,4,,3,False
+FC Tokyo,FC Tokyo,club,0.018710719889822754,,2,,2,False
+FCSB,FCSB,club,0.003045706827319905,,1,,1,False
+Farense,Farense,club,0.003045706827319905,,1,,1,False
+Fenerbahçe,Fenerbahçe,club,0.06648898416898076,,10,,5,False
+Ferencváros,Ferencváros,club,0.0036742745831397014,,1,,1,False
+Feyenoord,Feyenoord,club,0.03131896235272727,,5,,4,False
+Fiorentina,Fiorentina,club,0.013577343651422463,,1,,1,False
+Flamengo,Flamengo,club,0.046181846705548514,,9,,4,False
+Fluminense,Fluminense,club,0.011436060127615697,,1,,1,False
+Foolad,Foolad,club,0.00047319829948573697,,2,,1,False
+Fortuna Düsseldorf,Fortuna Düsseldorf,club,0.0133201101367047,,1,,1,False
+Frosinone,Frosinone,club,0.010254405207215928,,1,,1,False
+Fulham,Fulham,club,0.06075802639593733,,6,,5,False
+GAK,GAK,club,0.0023538372556885863,,1,,1,False
+Galatasaray,Galatasaray,club,0.08369699373795045,,11,,6,False
+Gangwon FC,Gangwon FC,club,0.007294011133138064,,1,,1,False
+Gaziantep,Gaziantep,club,0.007053295127984175,,1,,1,False
+Genk,Genk,club,0.04351389187247969,,4,,4,False
+Genoa,Genoa,club,0.017891514358008915,,2,,2,False
+Gent,Gent,club,0.0036742745831397014,,1,,1,False
+Gil Vicente,Gil Vicente,club,0.015913128453328314,,1,,1,False
+Girona,Girona,club,0.030796815541535884,,2,,2,False
+Granada,Granada,club,0.010254405207215928,,1,,1,False
+Grêmio,Grêmio,club,0.019813842214332123,,2,,2,False
+Guadalajara,Guadalajara,club,0.005507483082798376,,5,,1,False
+Győri ETO,Győri ETO,club,0.010254405207215928,,1,,1,False
+Hajduk Split,Hajduk Split,club,0.00759592368194687,,1,,1,False
+Hamburger SV,Hamburger SV,club,0.039281485063337694,,3,,3,False
+Hannover 96,Hannover 96,club,0.008600647418429868,,2,,2,False
+Heart of Midlothian,Heart of Midlothian,club,0.012094700478478685,,3,,2,False
+Hearts of Oak,Hearts of Oak,club,0.008492063611301203,,1,,1,False
+Hellas Verona,Hellas Verona,club,0.010254405207215928,,1,,1,False
+Heracles Almelo,Heracles Almelo,club,0.0023538372556885863,,1,,1,False
+Hibernian,Hibernian,club,0.0097408632227901,,1,,1,False
+Holstein Kiel,Holstein Kiel,club,0.013658868433703902,,1,,1,False
+Hradec Králové,Hradec Králové,club,0.004989349165885099,,1,,1,False
+Hull City,Hull City,club,0.028226562461353508,,3,,3,False
+Huracán,Huracán,club,0.010550813419953587,,2,,1,False
+IFK Norrköping,IFK Norrköping,club,0.007698809157132945,,1,,1,False
+Independiente,Independiente,club,0.014019449570578466,,2,,2,False
+Independiente Rivadavia,Independiente Rivadavia,club,0.004819159313465682,,1,,1,False
+Independiente del Valle,Independiente del Valle,club,0.010550813419953587,,1,,1,False
+Inter Miami CF,Inter Miami CF,club,0.021107986411942434,,3,,2,False
+Inter Milan,Inter Milan,club,0.10634300569529971,,7,,7,False
+Internacional,Internacional,club,0.021986873547569282,,2,,2,False
+Ipswich Town,Ipswich Town,club,0.0097408632227901,,1,,1,False
+Ironi Kiryat Shmona,Ironi Kiryat Shmona,club,0.0013960798559218114,,1,,1,False
+Iğdır,Iğdır,club,0.004853067989837309,,2,,2,False
+JS Kabylie,JS Kabylie,club,0.010254405207215928,,1,,1,False
+Jagiellonia Białystok,Jagiellonia Białystok,club,0.007053295127984175,,1,,1,False
+Jeonbuk Hyundai Motors,Jeonbuk Hyundai Motors,club,0.007294011133138064,,3,,1,False
+Juventus,Juventus,club,0.08001622940723521,,6,,6,False
+Juárez,Juárez,club,0.0013960798559218114,,1,,1,False
+Kaizer Chiefs,Kaizer Chiefs,club,0.0009018382612969237,,1,,1,False
+Kalba,Kalba,club,0.00047319829948573697,,2,,1,False
+Karlsruher SC,Karlsruher SC,club,0.007053295127984175,,1,,1,False
+Kashima Antlers,Kashima Antlers,club,0.018710719889822754,,2,,2,False
+Kasımpaşa,Kasımpaşa,club,0.020563190918693037,,3,,2,False
+Kayserispor,Kayserispor,club,0.0018073611625174046,,1,,1,False
+Kifisia,Kifisia,club,0.012358174582470991,,2,,2,False
+Kilmarnock,Kilmarnock,club,0.015710993589529255,,2,,2,False
+Konyaspor,Konyaspor,club,0.0018073611625174046,,1,,1,False
+Krasnodar,Krasnodar,club,0.01224599708443269,,2,,2,False
+LASK,LASK,club,0.01231159468279624,,2,,2,False
+LDU Quito,LDU Quito,club,0.014225088003093288,,2,,2,False
+Lanús,Lanús,club,0.004819159313465682,,1,,1,False
+Le Havre,Le Havre,club,0.032994461723088994,,3,,3,False
+Lechia Gdańsk,Lechia Gdańsk,club,0.0014617634037930327,,1,,1,False
+Leeds United,Leeds United,club,0.050465383823485824,,4,,4,False
+Leicester City,Leicester City,club,0.01084590086698979,,3,,2,False
+Lens,Lens,club,0.034998830779797936,,4,,4,False
+Levante,Levante,club,0.0023538372556885863,,1,,1,False
+León,León,club,0.0013960798559218114,,1,,1,False
+Lille,Lille,club,0.04702135111549096,,8,,4,False
+Liverpool,Liverpool,club,0.11829640899990188,,11,,9,False
+Lokomotiv Moscow,Lokomotiv Moscow,club,0.005507483082798376,,1,,1,False
+Lokomotiva Zagreb,Lokomotiva Zagreb,club,0.0006575517288674801,,1,,1,False
+Lorient,Lorient,club,0.03662654189350279,,3,,3,False
+Los Angeles FC,Los Angeles FC,club,0.014889934815084932,,4,,2,False
+Ludogorets Razgrad,Ludogorets Razgrad,club,0.003045706827319905,,1,,1,False
+Lugano,Lugano,club,0.011373083740272644,,2,,2,False
+Luton Town,Luton Town,club,0.0008337235261147041,,1,,1,False
+Lyon,Lyon,club,0.05759578100771346,,5,,5,False
+Maccabi Haifa,Maccabi Haifa,club,0.01741498376218255,,2,,2,False
+Maccabi Tel Aviv,Maccabi Tel Aviv,club,0.003045706827319905,,1,,1,False
+Machida Zelvia,Machida Zelvia,club,0.0023538372556885863,,1,,1,False
+Mainz 05,Mainz 05,club,0.05479537196718498,,6,,5,False
+Malavan,Malavan,club,0.00047319829948573697,,1,,1,False
+Mallorca,Mallorca,club,0.02342929127108104,,2,,2,False
+Malmö FF,Malmö FF,club,0.013658868433703902,,1,,1,False
+Mamelodi Sundowns,Mamelodi Sundowns,club,0.0009018382612969237,,8,,1,False
+Manchester City,Manchester City,club,0.14833906750520992,,19,,12,False
+Manchester United,Manchester United,club,0.14041886108521176,,12,,10,False
+Marathón,Marathón,club,0.0013960798559218114,,1,,1,False
+Maribor,Maribor,club,0.023611937610461257,,2,,2,False
+Marseille,Marseille,club,0.06967494731520729,,7,,5,False
+Mazatlán,Mazatlán,club,0.0013960798559218114,,1,,1,False
+Mechelen,Mechelen,club,0.015576239329102267,,1,,1,False
+Melbourne City,Melbourne City,club,0.0023538372556885863,,3,,1,False
+Melbourne Victory,Melbourne Victory,club,0.0023538372556885863,,1,,1,False
+Miami FC,Miami FC,club,0.0018073611625174046,,2,,1,False
+Middlesbrough,Middlesbrough,club,0.009403284844464274,,2,,2,False
+Midtjylland,Midtjylland,club,0.031422168204514114,,4,,3,False
+Milan,Milan,club,0.10336845942346111,,10,,8,False
+Millwall,Millwall,club,0.0014617634037930327,,1,,1,False
+Minnesota United FC,Minnesota United FC,club,0.01205813351682763,,3,,3,False
+Mjällby AIF,Mjällby AIF,club,0.013658868433703902,,1,,1,False
+Molde,Molde,club,0.0009018382612969237,,1,,1,False
+Monaco,Monaco,club,0.07580399309587826,,6,,5,False
+Montana,Montana,club,0.003045706827319905,,1,,1,False
+Monterrey,Monterrey,club,0.011436060127615697,,1,,1,False
+Montpellier,Montpellier,club,0.0059701303667391535,,1,,1,False
+Motherwell,Motherwell,club,0.0014617634037930327,,1,,1,False
+NEC,NEC,club,0.013224069919202094,,2,,2,False
+Nacional,Nacional,club,0.0013960798559218114,,1,,1,False
+Nancy,Nancy,club,0.0036742745831397014,,1,,1,False
+Nantes,Nantes,club,0.009200290257112786,,1,,1,False
+Napoli,Napoli,club,0.036397499562839414,,4,,3,False
+Nasaf,Nasaf,club,0.002247034935481622,,3,,1,False
+Nashville SC,Nashville SC,club,0.0008337235261147041,,1,,1,False
+Navbahor Namangan,Navbahor Namangan,club,0.002247034935481622,,1,,1,False
+Neftchi Fergana,Neftchi Fergana,club,0.002247034935481622,,3,,1,False
+Neom,Neom,club,0.003081969875287019,,1,,1,False
+New England Revolution,New England Revolution,club,0.012069696496392524,,1,,1,False
+New York City FC,New York City FC,club,0.014423533752081111,,3,,2,False
+Newcastle Jets,Newcastle Jets,club,0.0014617634037930327,,1,,1,False
+Newcastle United,Newcastle United,club,0.063404574148644,,8,,5,False
+Nice,Nice,club,0.07153016959037989,,8,,7,False
+Noah,Noah,club,0.0059701303667391535,,1,,1,False
+Nordsjælland,Nordsjælland,club,0.014460280491090693,,2,,2,False
+Norwich City,Norwich City,club,0.028785513173480312,,5,,5,False
+Nottingham Forest,Nottingham Forest,club,0.05736773055016757,,5,,5,False
+Olimpia,Olimpia,club,0.004819159313465682,,1,,1,False
+Olympiacos,Olympiacos,club,0.016049437628588,,2,,2,False
+Omonia,Omonia,club,0.003045706827319905,,1,,1,False
+Orlando City SC,Orlando City SC,club,0.025992426646835015,,3,,3,False
+Orlando Pirates,Orlando Pirates,club,0.0009018382612969237,,8,,1,False
+Osasuna,Osasuna,club,0.02545589407396924,,2,,2,False
+Oviedo,Oviedo,club,0.02589634061870639,,3,,3,False
+PAOK,PAOK,club,0.01399954669409958,,2,,2,False
+PEC Zwolle,PEC Zwolle,club,0.006314831393630342,,3,,3,False
+PSV Eindhoven,PSV Eindhoven,club,0.08425134331267936,,10,,8,False
+Pachuca,Pachuca,club,0.010550813419953587,,1,,1,False
+Pafos,Pafos,club,0.029204227172989282,,3,,3,False
+Pakhtakor,Pakhtakor,club,0.0030807584615963257,,4,,2,False
+Palmeiras,Palmeiras,club,0.03896757242818973,,7,,4,False
+Panathinaikos,Panathinaikos,club,0.02734918858094401,,2,,2,False
+Pari Nizhny Novgorod,Pari Nizhny Novgorod,club,0.0013960798559218114,,1,,1,False
+Paris FC,Paris FC,club,0.010254405207215928,,1,,1,False
+Paris Saint-Germain,Paris Saint-Germain,club,0.11672316538616107,,16,,9,False
+Parma,Parma,club,0.01377054601237328,,2,,2,False
+Persepolis,Persepolis,club,0.002720233234967359,,6,,2,False
+Persib,Persib,club,0.0008337235261147041,,1,,1,False
+Peterborough United,Peterborough United,club,0.0014617634037930327,,1,,1,False
+Philadelphia Union,Philadelphia Union,club,0.004576112844436625,,2,,2,False
+Pisa,Pisa,club,0.0133201101367047,,1,,1,False
+Plaza Amador,Plaza Amador,club,0.0013960798559218114,,2,,1,False
+Pogoń Szczecin,Pogoń Szczecin,club,0.0008337235261147041,,1,,1,False
+Polokwane City,Polokwane City,club,0.0009018382612969237,,1,,1,False
+Port,Port,club,0.0008337235261147041,,1,,1,False
+Port Vale,Port Vale,club,0.0014617634037930327,,1,,1,False
+Portland Timbers,Portland Timbers,club,0.0014617634037930327,,1,,1,False
+Porto,Porto,club,0.04300651122885666,,3,,3,False
+Portsmouth,Portsmouth,club,0.004819159313465682,,1,,1,False
+Puerto Cabello,Puerto Cabello,club,0.0013960798559218114,,1,,1,False
+Puskás Akadémia,Puskás Akadémia,club,0.003045706827319905,,1,,1,False
+Pyramids,Pyramids,club,0.012595898975396123,,5,,3,False
+Qatar SC,Qatar SC,club,0.0006575517288674801,,1,,1,False
+RB Leipzig,RB Leipzig,club,0.05106170166919637,,5,,4,False
+RKC Waalwijk,RKC Waalwijk,club,0.0018073611625174046,,2,,1,False
+RS Berkane,RS Berkane,club,0.015576239329102267,,1,,1,False
+Racing Santander,Racing Santander,club,0.009200290257112786,,1,,1,False
+Raja Casablanca,Raja Casablanca,club,0.0006575517288674801,,1,,1,False
+Randers,Randers,club,0.0023538372556885863,,1,,1,False
+Rangers,Rangers,club,0.04494139439238113,,5,,4,False
+Rayo Vallecano,Rayo Vallecano,club,0.024099686210966354,,2,,2,False
+Real Betis,Real Betis,club,0.06308631590245284,,7,,6,False
+Real Madrid,Real Madrid,club,0.12868178301557465,,10,,9,False
+Real Salt Lake,Real Salt Lake,club,0.011436060127615697,,1,,1,False
+Real Sociedad,Real Sociedad,club,0.05110160384462219,,5,,4,False
+Red Bull Bragantino,Red Bull Bragantino,club,0.004819159313465682,,1,,1,False
+Red Bull Salzburg,Red Bull Salzburg,club,0.017968809954858604,,2,,2,False
+Red Star Belgrade,Red Star Belgrade,club,0.01820952596001249,,2,,2,False
+Reims,Reims,club,0.011416708756684693,,1,,1,False
+Rennes,Rennes,club,0.04136316088666096,,4,,4,False
+Rijeka,Rijeka,club,0.020630638779406636,,3,,2,False
+River Plate,River Plate,club,0.04469922653467764,,5,,4,False
+Roma,Roma,club,0.0965044114071457,,6,,6,False
+Rosario Central,Rosario Central,club,0.009200290257112786,,1,,1,False
+Rostov,Rostov,club,0.00047319829948573697,,1,,1,False
+Rotherham United,Rotherham United,club,0.0018073611625174046,,1,,1,False
+SC Freiburg,SC Freiburg,club,0.04922967737168628,,4,,4,False
+SJK,SJK,club,0.003045706827319905,,1,,1,False
+Saint-Étienne,Saint-Étienne,club,0.009953827015094237,,2,,2,False
+Sampdoria,Sampdoria,club,0.007053295127984175,,1,,1,False
+Samsunspor,Samsunspor,club,0.015607622599665149,,1,,1,False
+San Diego FC,San Diego FC,club,0.004441786683241716,,2,,2,False
+San Lorenzo,San Lorenzo,club,0.004819159313465682,,1,,1,False
+Sanfrecce Hiroshima,Sanfrecce Hiroshima,club,0.011416708756684693,,1,,1,False
+Santos,Santos,club,0.014994682900866441,,1,,1,False
+Santos Laguna,Santos Laguna,club,0.005507483082798376,,1,,1,False
+Saprissa,Saprissa,club,0.0013960798559218114,,2,,1,False
+Sarpsborg 08,Sarpsborg 08,club,0.0008337235261147041,,1,,1,False
+Sassuolo,Sassuolo,club,0.02938708734083017,,4,,4,False
+Schalke 04,Schalke 04,club,0.007053295127984175,,2,,1,False
+Seattle Sounders FC,Seattle Sounders FC,club,0.012069696496392524,,1,,1,False
+Selangor,Selangor,club,0.0006575517288674801,,2,,1,False
+Sepahan,Sepahan,club,0.00047319829948573697,,3,,1,False
+Servette,Servette,club,0.007698809157132945,,1,,1,False
+Sevilla,Sevilla,club,0.02570414141191524,,3,,2,False
+Shabab Al Ahli,Shabab Al Ahli,club,0.00047319829948573697,,1,,1,False
+Shamrock Rovers,Shamrock Rovers,club,0.003045706827319905,,1,,1,False
+Sheffield United,Sheffield United,club,0.0032691245663104378,,2,,2,False
+Silkeborg,Silkeborg,club,0.0014617634037930327,,1,,1,False
+Sint-Truiden,Sint-Truiden,club,0.011416708756684693,,2,,1,False
+Siwelele,Siwelele,club,0.0009018382612969237,,1,,1,False
+Slavia Prague,Slavia Prague,club,0.004989349165885099,,10,,1,False
+Slovan Bratislava,Slovan Bratislava,club,0.0013960798559218114,,1,,1,False
+Slovan Liberec,Slovan Liberec,club,0.007053295127984175,,1,,1,False
+Sochaux,Sochaux,club,0.0036742745831397014,,1,,1,False
+Southampton,Southampton,club,0.01733678690473697,,2,,2,False
+Sparta Prague,Sparta Prague,club,0.004989349165885099,,3,,1,False
+Sparta Rotterdam,Sparta Rotterdam,club,0.0018073611625174046,,1,,1,False
+Spartak Moscow,Spartak Moscow,club,0.0059701303667391535,,1,,1,False
+Sporting CP,Sporting CP,club,0.06599905606445867,,7,,5,False
+St Patrick's Athletic,St Patrick's Athletic,club,0.008492063611301203,,1,,1,False
+St. Gallen,St. Gallen,club,0.008492063611301203,,1,,1,False
+Stade Nyonnais,Stade Nyonnais,club,0.010254405207215928,,1,,1,False
+Standard Liège,Standard Liège,club,0.00644332866622489,,2,,2,False
+Stoke City,Stoke City,club,0.020952879566841966,,2,,2,False
+Strasbourg,Strasbourg,club,0.06504116603832545,,7,,5,False
+Sunderland,Sunderland,club,0.08778089330127126,,9,,8,False
+Surkhon Termiz,Surkhon Termiz,club,0.002247034935481622,,1,,1,False
+Swansea City,Swansea City,club,0.011109611792619682,,3,,3,False
+Sydney FC,Sydney FC,club,0.0023538372556885863,,1,,1,False
+São Paulo,São Paulo,club,0.004819159313465682,,1,,1,False
+TSG Hoffenheim,TSG Hoffenheim,club,0.07010874497285349,,8,,6,False
+Talleres,Talleres,club,0.004819159313465682,,1,,1,False
+Tatran Prešov,Tatran Prešov,club,0.0036742745831397014,,1,,1,False
+Telstar,Telstar,club,0.0018073611625174046,,2,,1,False
+Terengganu,Terengganu,club,0.0018073611625174046,,1,,1,False
+Tijuana,Tijuana,club,0.01605829650275196,,2,,2,False
+Toluca,Toluca,club,0.005507483082798376,,2,,1,False
+Tondela,Tondela,club,0.0009018382612969237,,1,,1,False
+Torino,Torino,club,0.0357022381494231,,3,,3,False
+Toronto FC,Toronto FC,club,0.011270198265086571,,3,,2,False
+Torreense,Torreense,club,0.003045706827319905,,1,,1,False
+Tottenham Hotspur,Tottenham Hotspur,club,0.11220308802645396,,8,,8,False
+Toulouse,Toulouse,club,0.012069696496392524,,1,,1,False
+Trabzonspor,Trabzonspor,club,0.018958835280648217,,2,,2,False
+Tractor,Tractor,club,0.002720233234967359,,5,,2,False
+Turan Tovuz,Turan Tovuz,club,0.0013960798559218114,,1,,1,False
+Twente,Twente,club,0.010254405207215928,,1,,1,False
+UANL,UANL,club,0.011436060127615697,,1,,1,False
+UNAM,UNAM,club,0.017454376358673772,,3,,3,False
+US Monastir,US Monastir,club,0.007698809157132945,,1,,1,False
+USM Alger,USM Alger,club,0.010254405207215928,,2,,1,False
+Udinese,Udinese,club,0.013658868433703902,,1,,1,False
+Ulsan HD,Ulsan HD,club,0.007294011133138064,,2,,1,False
+Union Berlin,Union Berlin,club,0.007698809157132945,,1,,1,False
+Union Saint-Gilloise,Union Saint-Gilloise,club,0.03180560553560436,,3,,3,False
+Universidad Católica,Universidad Católica,club,0.0013960798559218114,,2,,1,False
+Universidad de Concepción,Universidad de Concepción,club,0.0013960798559218114,,1,,1,False
+Universitatea Cluj,Universitatea Cluj,club,0.007053295127984175,,1,,1,False
+Utrecht,Utrecht,club,0.0008337235261147041,,1,,1,False
+VVV-Venlo,VVV-Venlo,club,0.0018073611625174046,,1,,1,False
+Valencia,Valencia,club,0.0133201101367047,,1,,1,False
+Vancouver Whitecaps FC,Vancouver Whitecaps FC,club,0.024587664966991152,,3,,3,False
+Vasco da Gama,Vasco da Gama,club,0.009200290257112786,,1,,1,False
+Venezia,Venezia,club,0.022300051772942718,,3,,3,False
+VfB Stuttgart,VfB Stuttgart,club,0.05834948512752783,,8,,5,False
+VfL Wolfsburg,VfL Wolfsburg,club,0.05473756083578016,,5,,5,False
+Viking,Viking,club,0.013845794679003572,,2,,2,False
+Viktoria Plzeň,Viktoria Plzeň,club,0.032283946258159606,,7,,5,False
+Villarreal,Villarreal,club,0.07695314268392221,,8,,7,False
+Violette,Violette,club,0.0036742745831397014,,1,,1,False
+Vitória de Guimarães,Vitória de Guimarães,club,0.003045706827319905,,1,,1,False
+Vizela,Vizela,club,0.0036742745831397014,,2,,1,False
+Volendam,Volendam,club,0.0018073611625174046,,2,,1,False
+Vélez Sarsfield,Vélez Sarsfield,club,0.009200290257112786,,1,,1,False
+Watford,Watford,club,0.020707998897638278,,3,,3,False
+Wellington Phoenix,Wellington Phoenix,club,0.0014617634037930327,,3,,1,False
+Werder Bremen,Werder Bremen,club,0.02233222358355912,,3,,2,False
+West Ham United,West Ham United,club,0.044829645684790406,,4,,4,False
+Western Sydney Wanderers,Western Sydney Wanderers,club,0.0014617634037930327,,1,,1,False
+Widzew Łódź,Widzew Łódź,club,0.0059701303667391535,,1,,1,False
+Wolfsberger AC,Wolfsberger AC,club,0.01091551482687443,,1,,1,False
+Wolverhampton Wanderers,Wolverhampton Wanderers,club,0.054006727298957356,,6,,6,False
+Wrexham,Wrexham,club,0.011202626626583133,,2,,2,False
+Young Boys,Young Boys,club,0.042000894212177446,,6,,5,False
+ZED,ZED,club,0.00596821687978949,,2,,1,False
+Zamalek,Zamalek,club,0.00596821687978949,,3,,1,False
+Zenit Saint Petersburg,Zenit Saint Petersburg,club,0.014994682900866441,,2,,1,False
+Zhejiang,Zhejiang,club,0.007294011133138064,,1,,1,False
+Zulte Waregem,Zulte Waregem,club,0.0036742745831397014,,1,,1,False
+Zürich,Zürich,club,0.0018073611625174046,,1,,1,False
+Çaykur Rizespor,Çaykur Rizespor,club,0.032451784798028106,,3,,3,False
+Étoile du Sahel,Étoile du Sahel,club,0.007698809157132945,,1,,1,False
+İstanbul Başakşehir,İstanbul Başakşehir,club,0.029697933827431047,,5,,4,False
